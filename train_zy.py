@@ -18,7 +18,7 @@ from torch.utils.data import Dataset, DataLoader, ConcatDataset
 from torchvision import datasets, transforms
 from tqdm import tqdm
 
-from model3 import swin_tiny_patch4_window7_224 as create_model
+from model_zy import swin_tiny_patch4_window7_224 as create_model
 
 rcParams['font.sans-serif'] = ['SimHei']
 rcParams['axes.unicode_minus'] = False
